@@ -16,12 +16,10 @@ body, #about, #contact {
     position: fixed;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 15px;
     left: 0;
     right: 0;
     width: 350px;
-}
-
-.front, .back {
 }
 
 .flipper {
@@ -59,16 +57,8 @@ body, #about, #contact {
             filter: drop-shadow( 0px 0px 8px #fff );
 }
 
-#greeting {
-    display: block;
-    color: #fff;
-    font-family: 'NeutraBold';
-    font-size: 2em;
-    letter-spacing: 8px;
-}
-
-.icon-block {
-  padding: 0 15px;
+.back .row, .back p {
+    margin: 0px;
 }
 
 .page .section {
@@ -158,9 +148,14 @@ p {
     color: #383838;
 }
 
-#about, #contact {
+#about, #contact, #footer {
     z-index: 5;
     position: relative;
+}
+
+#footer {
+    background-color: #383838;
+    padding-top: 50px;
 }
 
 .link-heading {
@@ -188,7 +183,6 @@ p {
 }
 
 .footer {
-    margin-top: 50px;
     text-align: center;
     color: #777;
     font-size: 0.7em;
