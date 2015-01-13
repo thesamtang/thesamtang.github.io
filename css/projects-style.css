@@ -42,7 +42,7 @@ ul.side-nav a {
 }
 
 ul.side-nav a:hover {
-    background-color: #81A684;
+    background-color: #ff5252;
     color: #fff;
 }
 
@@ -51,8 +51,9 @@ ul.side-nav a:hover {
 }
 
 .header-wrapper {
-    background-color: #81A684;
+    background-color: #ff5252;
     margin-bottom: 50px;
+    box-shadow: 0px 1px 3px #000;
 }
 
 .header-title {
@@ -76,7 +77,7 @@ ul.side-nav a:hover {
 }
 
 .project-title {
-    color: #81A684;
+    color: #ff5252;
     font-size: 1.5em;
     font-family: 'NeutraBook'
 }
