@@ -62,8 +62,9 @@ ul.side-nav a:hover {
     justify-content:
 }
 
-#logo {
-    width: 75px;
+.button-collapse i {
+    font-size: 3em;
+    color: #fff;
 }
 
 .page-title {
