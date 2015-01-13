@@ -7777,7 +7777,7 @@ ul.table-of-contents a.active {
   border-left: 2px solid #ea4a4f;
 }
 
-@media only screen and (max-width: 992px) {
+/*@media only screen and (max-width: 992px) {*/
   ul.side-nav {
     position: fixed;
     width: 240px;
@@ -7815,7 +7815,7 @@ ul.table-of-contents a.active {
   #front-page-nav ul.side-nav a {
     color: #444;
   }
-}
+/*}*/
 #sidenav-overlay {
   position: absolute;
   top: 0px;

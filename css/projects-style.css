@@ -2,6 +2,50 @@ body {
     background-color: #383838;
 }
 
+#nav-logo {
+    width: 120px;
+    position: relative;
+    margin-left: 24%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+ul.side-nav {
+    background-color: #383838;
+    margin-top: 0px;
+}
+
+ul.side-nav li {
+    overflow: hidden;
+    padding: 0px;
+    height: 65px;
+    line-height: 65px;
+}
+
+ul.side-nav li:hover {
+    background-color: #383838;
+}
+
+ul.side-nav a {
+    display: block;
+    height: 100%;
+    padding-left: 20px;
+    color: #ddd;
+    font-family: 'NeutraDemi';
+    font-size: 1.5em;
+        
+    -webkit-transition: 0.1s;
+	-moz-transition:    0.1s;
+	-o-transition:      0.1s;
+	-ms-transition:     0.1s;
+    transition:         0.1s;
+}
+
+ul.side-nav a:hover {
+    background-color: #81A684;
+    color: #fff;
+}
+
 .header {
     margin-top: 30px;
 }
@@ -30,57 +74,17 @@ body {
     margin-left: 20px;
 }
 
-.card, .card-image, .card-action {
-    border-radius: 0px;
+.project-title {
+    color: #81A684;
+    font-size: 1.5em;
+    font-family: 'NeutraBook'
 }
 
-.card {
-    box-shadow: none;
-    border: 1px solid #ccc;
-    margin-bottom: 12px;
-}
-
-.card:hover {
-    cursor: pointer;
-}
-
-.card:hover .card-action a {
-    color: #383838;
-    background-color: #ccc;
-}
-
-.card-image, .card .card-action {
-    padding: 0px;
-}
-
-.card .card-image a {
-    display: block;
-}
-
-.card .card-action {
-    margin-top: -6px;
-    //background-color: #81A684;
-    overflow: hidden;
-}
-
-.card .card-action a {
-    width: 100%;
-    padding: 5px;
-    display: block;
+.project-desc-text {
+    margin: 0px;
     color: #ccc;
     font-family: 'ColabLight';
-    text-transform: none;
     font-size: 1.5em;
-    -webkit-transition: 0.2s ease;
-    -moz-transition: 0.2s ease;
-    -o-transition: 0.2s ease;
-    -ms-transition: 0.2s ease;
-    transition: 0.2s ease;
-}
-
-.card .card-action a:hover {
-    color: #383838;
-    background-color: #ccc;
 }
 
 .footer {
@@ -89,11 +93,4 @@ body {
     color: #777;
     font-size: 0.7em;
     margin-bottom: 30px;
-}
-
-/* Larger than tablet */
-@media (min-width: 600px) {
-    .set-picker {
-        margin-top: 35px;
-    }
 }

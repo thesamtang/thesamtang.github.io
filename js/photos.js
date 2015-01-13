@@ -3,6 +3,8 @@
       
       $('.dropdown-button').dropdown({hover: false});
       
+      $(".button-collapse").sideNav();
+      
       var portraits = [
           {
               image: '../img/portraits/1-L.jpg',

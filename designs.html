@@ -12,11 +12,20 @@
 </head>
     
 <body>
+   
+   <ul id="slide-out" class="side-nav full">
+    <img id="nav-logo" src="img/logo.svg">
+    <li><a href="/index.html">HOME</a></li>
+    <li><a href="/projects.html">PROJECTS</a></li>
+    <li><a href="/photos.html">PHOTOS</a></li>
+    <li><a href="/designs.html">DESIGNS</a></li>
+  </ul>
+   
     <div class="header-wrapper">
      <div class="container header">
         <div class="row">
            <div class="col s12 m8 header-title">
-              <a href="index.html"><img id="logo" src="img/logo.svg"></a>
+              <a href="#" data-activates="slide-out" class="button-collapse"><img id="logo" src="img/logo.svg"></a>
            
                <span class="page-title">
                    DESIGNS
@@ -81,6 +90,7 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
+  <script src="js/designs.js"></script>
 
   </body>
 </html>
