@@ -43,7 +43,6 @@ body, #about, #contact {
 }
 
 .back a {
-    color: #383838;
     color: #ff5252;
 }
 
@@ -61,7 +60,6 @@ body, #about, #contact {
 
 .page .section {
     padding-top: 0px;
-    background-color: #383838;
 }
 
 #splash {
@@ -75,6 +73,11 @@ body, #about, #contact {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+}
+
+.content {
+    position: relative;
+    background-color: #383838;
 }
 
 p, .email, .social {
@@ -155,7 +158,6 @@ p {
 }
 
 #footer {
-    background-color: #383838;
     padding-top: 50px;
 }
 
@@ -198,13 +200,7 @@ p {
 }
 
 /* Larger than tablet */
-@media (min-width: 600px) {    
-    #logo {
-        width: 250px;
-        -webkit-filter: drop-shadow( 0px 0px 8px #fff );
-        filter: drop-shadow( 0px 0px 8px #fff );
-        
-    }
+@media (min-width: 600px) { 
     
     .flip-container {
         width: 560px;
@@ -252,3 +248,10 @@ p {
     }    
 }
 
+@media (min-width: 900px) {
+    #logo {
+        width: 250px;
+        -webkit-filter: drop-shadow( 0px 0px 8px #fff );
+        filter: drop-shadow( 0px 0px 8px #fff );
+    }
+}
