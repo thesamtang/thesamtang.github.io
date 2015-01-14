@@ -43,6 +43,18 @@ body, #about, #contact {
     
 }
 
+.back a {
+    color: #383838;
+    
+    color: #ff5252;
+    
+}
+
+.back a:hover {
+    
+    border-bottom: 1px solid #ff5252;
+}
+
 #logo {
     width: 120px;
     -webkit-filter: drop-shadow( 0px 0px 8px #fff );
@@ -187,22 +199,12 @@ p {
     #logo {
         width: 150px;
     }
-    
-    #greeting {
-        font-size: 3em;
-        letter-spacing: 10px;
-    }
 }
 
 /* Larger than tablet */
 @media (min-width: 600px) {    
     #logo {
         width: 250px;
-    }
-    
-    #greeting {
-        letter-spacing: 15px;
-        font-size: 5em;
     }
     
     .flip-container {
@@ -249,27 +251,5 @@ p {
     .button-content-hvr i {
         display: none;
     }    
-}
-
-/* Larger than desktop */
-@media (min-width: 992px) {
-    .nav-wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around
-    }
-    
-    ul.side-nav {
-        background-color: rgba(0, 0, 0, 0.0);
-    }
-    
-    ul.side-nav li:hover {
-        background-color: rgba(255, 255, 255, 0.3);
-        border-left: none;
-    }
-    
-    #nav-logo {
-        display: none;
-    }
 }
 
