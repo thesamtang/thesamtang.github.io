@@ -98,6 +98,14 @@ ul.side-nav a:hover {
     margin-bottom: 10px;
 }
 
+.project-desc-text a {
+    color: #ff5252;
+}
+
+.project-desc span {
+    margin-bottom: 10px;
+}
+
 .tag, .project-link {
     font-size: 1.1em;
 }
