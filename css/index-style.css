@@ -45,7 +45,6 @@ body, #about, #contact {
 .back a {
     color: #383838;
     color: #ff5252;
-    
 }
 
 .back a:hover {
@@ -54,8 +53,6 @@ body, #about, #contact {
 
 #logo {
     width: 120px;
-    -webkit-filter: drop-shadow( 0px 0px 8px #fff );
-            filter: drop-shadow( 0px 0px 8px #fff );
 }
 
 .back .row, .back p {
@@ -204,6 +201,9 @@ p {
 @media (min-width: 600px) {    
     #logo {
         width: 250px;
+        -webkit-filter: drop-shadow( 0px 0px 8px #fff );
+        filter: drop-shadow( 0px 0px 8px #fff );
+        
     }
     
     .flip-container {
