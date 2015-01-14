@@ -1,5 +1,5 @@
 body, #about, #contact {
-    background-color: #383838;
+    background-color: 383838;
 }
 
 .flip-container {
@@ -40,18 +40,15 @@ body, #about, #contact {
     background-color: #eee;
     padding: 20px;
     box-shadow: 0px 3px 6px 0px #222;
-    
 }
 
 .back a {
     color: #383838;
-    
     color: #ff5252;
     
 }
 
 .back a:hover {
-    
     border-bottom: 1px solid #ff5252;
 }
 
@@ -67,7 +64,7 @@ body, #about, #contact {
 
 .page .section {
     padding-top: 0px;
-    
+    background-color: #383838;
 }
 
 #splash {
@@ -75,14 +72,12 @@ body, #about, #contact {
     width: 100%;
     margin: auto;
     background-image: url(../img/splash-bkgd.jpg);
-    position: relative;
+    position: fixed;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    
-    padding-bottom: 100vh;
 }
 
 p, .email, .social {
@@ -151,6 +146,10 @@ p {
 
 .quote-text {
     color: #fff;
+}
+
+#about {
+    margin-top: 200vh;
 }
 
 #about, #contact, #footer {
