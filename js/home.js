@@ -36,6 +36,10 @@
            $flipper.css('transform', 'rotateY(' + degree + 'deg)');
            $logo.css({ 'opacity' : (1 - st/limit) });
            $back.css({ 'opacity' : (st/limit) });
+       } else if (st > limit) {
+           $flipper.css('transform', 'rotateY(180deg)');
+           $logo.css({ 'opacity' : 0 });
+           $back.css({ 'opacity' : 1 });
        }
         
         hidden.each(function(i) {
