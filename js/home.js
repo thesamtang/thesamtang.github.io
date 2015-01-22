@@ -1,7 +1,7 @@
 (function($){
   $(function(){
       
-    $('.front').fadeTo(0, 0).fadeTo(2000, 1);
+    //$('.front').fadeTo(0, 0).fadeTo(2000, 1);
       
     $(".link-button").mouseenter( function() {
         if ($(window).width() > 600) {
