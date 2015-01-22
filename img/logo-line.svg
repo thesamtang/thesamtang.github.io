@@ -33,6 +33,18 @@
             }
         }
         
+        keyframes wait {
+            0% {
+                stroke-opacity: 0;
+            }
+            99% {
+                stroke-opacity: 0;
+            }
+            100% {
+                stroke-opacity: 1;
+            }
+        }
+        
         @-webkit-keyframes dash {
             0% {
                 stroke-dashoffset: 800;
