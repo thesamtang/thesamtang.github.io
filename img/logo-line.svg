@@ -15,10 +15,10 @@
         .st0 {
             stroke-dasharray: 800;
             stroke-dashoffset: 0;
-            -webkit-animation: wait 0.5s linear forwards, dash 1.8s 0.5s linear forwards, fill 1s 2.3s linear forwards;
-            -moz-animation: wait 0.5s linear forwards, dash 1.8s 0.5s linear forwards, fill 1s 2.3s linear forwards;
-            -o-animation: wait 0.5s linear forwards, dash 1.8s 0.5s linear forwards, fill 1s 2.3s linear forwards;
-            animation: wait 0.5s linear forwards, dash 1.8s 0.5s linear forwards, fill 1s 2.3s linear forwards;
+            -webkit-animation: wait 0.8s linear forwards, dash 1.8s 0.8s linear forwards, fill 1s 2.6s linear forwards;
+            -moz-animation: wait 0.8s linear forwards, dash 1.8s 0.8s linear forwards, fill 1s 2.6s linear forwards;
+            -o-animation: wait 0.8s linear forwards, dash 1.8s 0.8s linear forwards, fill 1s 2.6s linear forwards;
+            animation: wait 0.8s linear forwards, dash 1.8s 0.8s linear forwards, fill 1s 2.6s linear forwards;
         }
 
         @-webkit-keyframes wait {
