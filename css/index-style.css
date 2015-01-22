@@ -51,7 +51,7 @@ body, #about, #contact {
 }
 
 #logo {
-    width: 120px;
+    width: 50%;
 }
 
 .back .row, .back p {
@@ -194,16 +194,10 @@ p {
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-    #logo {
-        width: 250px;
-    }
 }
 
 /* Larger than tablet */
-@media (min-width: 600px) { 
-    #logo {
-        width: 300px;
-    }
+@media (min-width: 600px) {
     
     .flip-container {
         width: 560px;
