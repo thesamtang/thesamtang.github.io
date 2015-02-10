@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Thesis[0] - Welcome"
+date: 2015-02-10
+categories: thesis
+---
+This is probably my third attempt or so at sustaining a blog or any kind of regular writing. What makes this one different is that I now actually have something consistent to write about - my undergrad architectural studies thesis.
+
+I'll be posting here regularly with updates pertaining to my thesis, both as a way to provide some insight to any interested parties and to use for recordkeeping purposes. I'm starting the second semester of this project and over the next couple of months will be furiously working away at designing and constructing an interactive installation as a response to the "Amherst Awkward", a phenomenon at Amherst College which prevents students from developing certain meaningful relationships with other students.
+
+I'll also be posting occasionally about some of my other endeavours and new technologies that I may be exploring. For example, I'm transitioning to using [Jekyll] to manage this blog and my website - hopefully it will pay off.
+
+Thanks for visiting, I'll see you at the next post.
+
+[Jekyll]:http://jekyllrb.com/
