@@ -323,7 +323,7 @@
       ];
       
       
-      Galleria.loadTheme('galleria/themes/folio/galleria.folio.min.js');
+      Galleria.loadTheme('../galleria/themes/folio/galleria.folio.min.js');
       Galleria.run('.galleria', {dataSource: portraits});
       
       $('#portraits').click(function() {
