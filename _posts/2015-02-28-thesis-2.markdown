@@ -18,7 +18,7 @@ This visual response from the architecture itself is used as a simulation of int
 
 To begin testing this idea, I put together a small prototype using an an array of 6 LEDs connected to an Arduino, and using a Leap Motion controller as input. The Leap has the ability to track hand position, which I'm using here to simulate a person. I've also used the Johnny-Five Node.JS module in order to interface between the Leap and the Arduino. LEDs in the array are turned on based on hand position, and the brightness of the active LED is calculated using the speed of hand movement (I used brightness instead of color because I currently only have single-color LEDs on hand). Below is the code I used and a short video demonstration:
 
-```javascript
+{% highlight javascript %}
 var webSocket = require('ws'),
   ws = new webSocket('ws://127.0.0.1:6437'),
   five = require('johnny-five'),
@@ -88,7 +88,7 @@ board.on('ready', function() {
   });
 });
 
-```
+{% endhighlight %}
 
 [![Youtube video of prototype](http://img.youtube.com/vi/CtNmzncG8uw/0.jpg)](http://www.youtube.com/watch?feature=player_embedded&v=CtNmzncG8uw)
 
