@@ -8,7 +8,7 @@ categories: thesis
 Now that we've defined what an interaction looks like, the question becomes: how do we move beyond simply generating interaction and develop personal relationships as well? Furthermore, how do we physically detect or model the development of a relationship between two people?
 
 ![The LEDs][fig1]
-**Figure 1.** Typical interaction feedback loop between two people
+**Figure 1.** Status-tracking LED components
 
 Imagine if the architecture around you was able to display the level of intimacy you have with the people in your immediate vicinity. In our case, I think it would be useful to, rather than directly display such a measure, simulate or mock it based on a certain set of actions in order to influence certain social behaviors. For example, a strip of LEDs and motion sensors could be built into every wall of every building such that it was able to sense your presence at all times (Figure 1). The LEDs nearest to you would glow warm or cold based on a measure how much you were interacting with the people around you.
 
