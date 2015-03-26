@@ -1,0 +1,74 @@
+---
+layout: post
+title: "Thesis[4] - (Almost) Installed!"
+date: 2015-03-24
+categories: thesis
+---
+
+Big update today - there were a number of logistical concerns I had to address between the last post and this one, and I've since begun installing so this will be more of a two-in-one post.
+
+##Concept Changes##
+
+Since the last iteration of the design, I've decided to let the installation itself take on more of a passive role. If you recall from my [second post][1], my vision is for these mood-sensing lights to be a ubiquitous component of public space. Ideally I'd like them to influence behaviors and encourage interaction between people by providing information, rather than become the subject of discussion themselves. Admittedly, this is difficult to do given the scope of the design in its current form - introducing the installation to the space is already a significant change from the status quo, and in its current form might be interpreted as more of an isolated installation or art piece. The amount of time I leave it installed may help alleviate this effect. If I can get people to grow accustomed to its presence, I may end up with more interesting results. I hope that in a more ubiquitous form, the visual stimulus from the LEDs will be perceived in a more subconscious way and allow passersby to think about their actions instead.
+
+In addition, I really want to focus on the idea of presenting the warmth of a space based on the actions of the people in it, and I think I can best do this through the use of color in the LEDs - smoothly shifting from reds during interactions to blue during non-interactions.
+
+##Implementation Changes##
+
+In an ideal situation, I would implement the tracking of participants using IR sensors at every LED along the path. This would allow me to track the position of every person in the space, and track interactions at any point. This solution isn't quite feasible due to constraints in time and budget which is why I'm choosing to use one sonar sensor per strip, as I outlined in my [previous post][2]. The drawback here is that these sensors need to be placed centrally in the middle of the piece, and they can only sense one person at a time. As such, there is also dead zone between the sensors. 
+
+![Sensor Arrangement][fig1]
+**Figure 1.** Sensor Arrangement
+
+I think this actually works in favor of the design, since having this meeting place in the middle between the LED strips provides a focal point for the installation - an ideal spot for interactions to happen. This "Point of Contact", so to speak, can take over the role of tracking once passersby have gone past the range of the sonar sensors. Here, I can use infrared sensors, which have a narrower beam width than the sonars. By setting up two infrared sensors pointing perpendicularly to the wall, I can detect when two people are standing directly at the middle. At that point, I plan to keep track of how long they both are there for. If either leave within say, 1.5-2 seconds, the LEDs will react and flash a cold blue. This would happen not just when two people stop and lose interest, but also when two people walk past each other. Conversely, if they stay past the 2 second mark, this means the two people have been in position and close to each other long enough for them to possibly have initiated some form of interaction, and the LEDs will flash red. There will be two additional LED strip "meters" attached to the middle, one displaying the number of "missed connections", and one reflecting how many times people have stopped in the middle.
+
+![LED Arrangement][fig2]
+**Figure 2.** LED Arrangement
+
+Another big change I've made since the last iteration is that instead of displaying the position of a passerby along the LED strip by tracking proximity, I'll have the LEDs show a color based on both position and speed. If a passerby is moving along the strip and slowing down (thus increasing the possibility of an interaction with someone else), the LEDs glow more red. If they spped up or move away from another person, they glow more blue. I think this consistency of warm and cool colors with the two types of outcomes in the middle will help participants make the connection between their movements and the reactions of the LEDs.
+
+The other issue to discuss is location. I initially considered installing in some of the more public locations on campus, such as the Keefe Campus Center lobby, Frost Library lobby, or Valentine Dining Hall. After fleshing out the design, I now think that circulation spaces align much more closely to the things I hope to achieve. The Amherst Awkward often happens when people walk past each other, so approaching the issue in places where people pass by next to each other all the time makes sense. Moreover, although I do want people to stop and talk, the Points of Contact created by the installation are not meant to be destinations in themselves, and destination spaces like the student center or dining hall might not work as well. Another factor is simply the limitations of the sensors I have. It's much harder to track people in an open space like a lobby, and peoples' movements in them are much less predictable. Thus, I'm installing in Seeley Mudd, an academic building. In the main entry, there is a hallway running along the back portion on either side. This is the main circulation space of that floor, and although it is a wide space, the back wall is typically utilized more as part of the hallway. The lobby gives the added benefit of greater visibility. Installing there would let the installation be visibile outside the building, and having people stop in front of it would not completely block the usual flow of foot traffic.
+
+![Seeley Mudd Section][fig3]
+**Figure 3.** Seeley Mudd Section
+
+![Seeley Mudd Plan][fig4]
+**Figure 4.** Seeley Mudd Plan
+
+##Material Changes##
+
+After consulting with those who manage the space in Seeley Mudd during the greater part of last week, I've needed to make some changes in regard to materials, due to the limitations on what I can use to actually mount the installation to the wall in that space. I've been allowed only painter's tape to affix the LEDs and controls to the wall, so I've needed to make my design much more lightweight.
+
+Initially, I intended to put the LED strips on 8-foot long 2x3 boards. I would then bolt clear acryllic strips (spraypainted white to diffuse the light) over the LEDs, and mount the boards to the wall. Obviously, painter's tape is not going to hold wooden boards onto a wall, so I gave up this design.
+
+My next design involved stuffing the LED strips into 3/4" diameter clear vinyl tubes, again spraypainted white to diffuse the light. A couple of issues arose from this - one was that the spraypaint would not bond with the vinyl, creating a generally sticky and unpleasant mess.The other issue was that the tubing was also more or less impossible to hang up on the wall in a way where the the painter's tape was not visible, due to its weight.
+
+I then devised the lightest solution I could find for housing and diffusing the LEDs - paper. I created a series of folded paper tent-like structures to cover the LEDs. These are extremely easy to tape onto the wall, and the LEDs themselves could be taped directly onto the wall underneath the paper.
+
+![Paper diagram][fig5]
+**Figure 5.** Paper Housing for LEDs
+
+For the control hub, I put everything into a cardboard box (spraypainted black), which easily stayed onto the wall with tape.
+
+##Installation##
+
+With these changes made, I actually went and installed in Seeley Mudd this past Monday. The setup went without much problem, for the most part. The only issue that still needs addressing is the sonar sensors. The analog readings I get from them become rather noisy after around 35-40 inches or so, which affects the colors of the LED strips and causes them to change in unexpected ways. The LED strips run about 96 inches in either direction, so you can see how this is a bit of a problem. This might be resolved by chaining the sensors sequentially rather than having them be separately wired to the microcontroller; I'll need to do some more investigation. To make matters worse, one of the sonar sensors stopped working during the installation. I've ordered another one and I'm currently waiting for it to come in. Once I've figured out the sensor issue, I'll run the installation for a few days and see how people react to it. I plan on placing markings on the ground after a couple of days indicating where to stand to set off the infrared sensors and fulfill the "connection made" requirements. I'm curious to see whether having just the LED responses on their own are too subtle.
+
+![Installation][fig6]
+**Figure 6.** Installation in Seeley Mudd
+
+![Installation][fig7]
+**Figure 7.** Installation in Seeley Mudd
+
+The next post will likely summarize my findings. Stay tuned.
+
+[1]: http://thesamtang.com/thesis/2015/02/28/thesis-2.html
+[2]: http://thesamtang.com/thesis/2015/03/13/thesis-3.html
+
+[fig1]: /img/thesis/sensor-digram.png
+[fig2]: /img/thesis/ledstrip-digram.png
+[fig3]: /img/thesis/smudd-section.png
+[fig4]: /img/thesis/smudd-plan.png
+[fig5]: /img/thesis/paper-digram.png
+[fig6]: /img/thesis/install1.jpg
+[fig7]: /img/thesis/install2.jpg
