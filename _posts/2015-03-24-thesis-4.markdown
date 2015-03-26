@@ -65,10 +65,10 @@ The next post will likely summarize my findings. Stay tuned.
 [1]: http://thesamtang.com/thesis/2015/02/28/thesis-2.html
 [2]: http://thesamtang.com/thesis/2015/03/13/thesis-3.html
 
-[fig1]: /img/thesis/sensor-digram.png
-[fig2]: /img/thesis/ledstrip-digram.png
+[fig1]: /img/thesis/sensor-diagram.png
+[fig2]: /img/thesis/ledstrip-diagram.png
 [fig3]: /img/thesis/smudd-section.png
 [fig4]: /img/thesis/smudd-plan.png
-[fig5]: /img/thesis/paper-digram.png
+[fig5]: /img/thesis/paper-diagram.png
 [fig6]: /img/thesis/install1.jpg
 [fig7]: /img/thesis/install2.jpg
