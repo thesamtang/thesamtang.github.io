@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Thesis[5] - Wrap-up"
+date: 2015-05-04
+categories: thesis
+---
+
+It's been a while since the last update. During this time, I've installed Points of Contact, observed its results, and finished writing up my thesis. To reiterate, I wanted to explore the following questions with this project: How can behaviors in public spaces be influenced by technology? What happens when you make a fundamental change in architectural experience from static to dynamic? Can social issues, especially in the context of Amherst College, be addressed using interactive art, architecture, and ubiquitous computing? 
+
+I ended up leaving the installation up for a total three weeks. During week one, the installation was installed, but not turned on due to issues with the ultrasonic sensors. During week two, the installation was turned on. During week three, I added markers on the floor which indicated where passersby would need to stand in order to activate the meeting place. I learned two significant thigns while comparing how people responded to the installation over the three weeks:
+
+1. Interactive architecture can successfully generate more interaction
+2. People can become accustomed to interactive architecture over time
+
+Recall from my last post that I used two LED strip "meters" to keep track of how often connections between people were made or missed at the point of contact. I used these meters to roughly determine how people moved through the space in relation to each other. The amount of missed connections stayed relatively high throughout the second two weeks when the installation was actually turned on. This is not unexpected, considering the fact that not everyone has the time or patience to stop and talk with someone else. 
+
+![Interaction Meters][fig1]
+**Figure 1.** Interaction Meters
+
+During the second week, the number of made connections was much lower than the number of missed connections. There was no indication of where someone needed to stand in order to get a response, and no indication that two participants were needed, so it made sense that the conditions needed for a made connection would be difficult to figure out. After adding markings on the ground to indicate the minimum distance needed to record a connection, it seemed like people were able to pick up better on what the installation was trying to do and the number of missed and made connections were about equal from day to day.
+
+![Location of floor indicators][fig2]
+**Figure 2.** Location of floor indicators
+
+After incorporating the interactive elements into the experience of the space and providing spatial intervention via the floor indicators, it was pretty clear that the number of made connections that were happening in the space had increased. Although my goal was to use the installation to help encourage interaction, rather than have the installation itself become the topic of conversation, I found the latter situation to occur more frequently. The result was that people were actually talking more, so the outcome was not entirely misaligned with my goals. The space around the point of contact became more than just a means of passage.
+
+Furthermore, the fact that people were using the space differently and consistently indicates a more reassuring response. One of the main challenges for interactive architecture and ubiquitous computing is the fact that their use is still so infrequent and novel that people don't generally know how to react in their presence. They are not prevalent or standard enough to the point where people can respond to them intuitively. During the first part of the two weeks when the installation was turned on, I found this to be the case. The meter values between days varied wildly since curious passersby would spend more time trying to figure out how the installation worked, skewing the readings and the quantity of each type of reaction. However, as the weeks progressed, the readings became more consistent, and trends emerged.
+
+The fact that there were noticeable patterns is significant in of itself, since it indicates that the people using the space on a daily basis became accustomed to the new technologies. If this wasn’t the case, I would have expected to see more erratic changes between each day. It would appear that the barrier to acceptance for interactive technologies is not as great as it might seem. Perhaps an inherent curiosity present in Amherst students contributed to this, but in any case I was pleasantly surprised by what I saw.
+
+It may be a while before interactive architecture becomes a widely adopted fixture on the Amherst campus, and it may be a while longer before Amherst students are influenced to interact and learn from each other on a deeper level, but the potential for change does exist. Even at a small scale, interactive components had a non-trivial impact on student behaviors in a public space. The students at Amherst want to interact, and existing public spaces can be used to improve interpersonal relationships and engender a better sense of community.
+
+![The installation][fig3]
+**Figure 23.** The installation
+
+
+[fig1]: /img/thesis/ledmeters.png
+[fig2]: /img/thesis/floormarkers.png
+[fig3]: /img/thesis/IMG_5716.jpg
