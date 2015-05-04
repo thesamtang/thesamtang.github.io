@@ -36,4 +36,4 @@ It may be a while before interactive architecture becomes a widely adopted fixtu
 
 [fig1]: /img/thesis/ledmeters.png
 [fig2]: /img/thesis/floormarkers.png
-[fig3]: /img/thesis/IMG_5716.jpg
+[fig3]: /img/thesis/IMG_5716.JPG
